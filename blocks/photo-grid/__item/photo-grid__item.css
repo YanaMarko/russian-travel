@@ -1,0 +1,12 @@
+.photo-grid__item {
+  max-width: 284px;
+  max-height: 213px;
+}
+
+/* @media screen and (min-width: 1280px) {
+  .photo-grid__item {
+    min-width: 300px;
+    min-height: 225px;
+    background-size: cover;
+  }
+} */
