@@ -1,0 +1,14 @@
+.place{
+  margin-top: 80px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(46px, 152px);
+  flex-wrap: wrap;
+  max-width: 984px;
+  min-height: 660px;
+}
+
+.place:first-of-type{
+  margin-top: 0;
+}

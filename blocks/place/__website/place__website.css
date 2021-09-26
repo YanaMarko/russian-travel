@@ -1,0 +1,13 @@
+.place__website {
+  max-width: 484px;
+  max-height: 152px;
+  min-height: 76px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+}
