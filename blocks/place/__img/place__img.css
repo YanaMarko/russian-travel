@@ -3,3 +3,24 @@
   max-width: 460px;
   max-height: 460px;
 }
+
+@media (min-width: 1023px) and (max-width: 1441px) {
+  .place__img {
+    max-width: 440px;
+    max-height: 440px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1022px) {
+  .place__img {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 766px) {
+  .place__img {
+    max-width: 320px;
+    max-height: 320px;
+  }
+}

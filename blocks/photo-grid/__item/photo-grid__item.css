@@ -3,10 +3,37 @@
   max-height: 213px;
 }
 
-/* @media screen and (min-width: 1280px) {
-  .photo-grid__item {
+@media (min-width: 1280px) and (max-width: 1441px) {
+  .photo-grid__item{
+    min-width: 284px;
+    min-height: 213px;
+  }
+}
+
+@media (min-width: 1023px) and (max-width: 1279px) {
+  .photo-grid__item{
     min-width: 300px;
     min-height: 225px;
-    background-size: cover;
   }
-} */
+}
+
+@media (min-width: 767px) and (max-width: 1022px) {
+  .photo-grid__item {
+    min-width: 352px;
+    min-height: 264px;
+  }
+}
+
+@media (min-width: 424px) and (max-width: 766px) {
+  .photo-grid__item{
+    min-width: 393px;
+    min-height: 274px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 423px) {
+  .photo-grid__item {
+    min-width: 288px;
+    min-height: 216px;
+  }
+}

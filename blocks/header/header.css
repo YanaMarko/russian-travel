@@ -1,7 +1,17 @@
 .header {
+  width: auto;
   margin: 28px 48px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   max-height: 52px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media (min-width: 319px) and (max-width: 766px) {
+  .header {
+    margin: 16px 16px 0;
+  }
 }

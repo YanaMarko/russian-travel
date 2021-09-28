@@ -2,3 +2,25 @@
   max-width: 983px;
   margin: 0 auto 0;
 }
+
+@media (min-width: 1023px) and (max-width: 1441px) {
+  .content {
+    max-width: 928px;
+    min-width: 927px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1022px) {
+  .content {
+    max-width: 768px;
+    min-width: 767px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 766px) {
+  .content {
+    max-width: 320px;
+    min-width: 319px;
+  }
+}
+

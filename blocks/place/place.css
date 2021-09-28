@@ -1,7 +1,8 @@
-.place{
+.place {
   margin-top: 80px;
   display: grid;
-  gap: 30px;
+  row-gap: 48px;
+  column-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: minmax(46px, 152px);
   flex-wrap: wrap;
@@ -11,4 +12,33 @@
 
 .place:first-of-type{
   margin-top: 0;
+}
+
+@media (min-width: 1023px) and (max-width: 1441px) {
+  .place {
+    max-width: 928px;
+    min-height: 640px;
+    column-gap: 32px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1022px) {
+  .place {
+    max-width: 720px;
+    min-height: 581px;
+    margin-top: 73px;
+    column-gap: 28px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 423px) {
+  .place {
+    max-width: 320px;
+    min-height: 1042px;
+    margin-top: 50px;
+    row-gap: 32px;
+    column-gap: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

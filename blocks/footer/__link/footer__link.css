@@ -5,3 +5,25 @@
   font-weight: normal;
   font-size: 16px;
 }
+
+@media (min-width: 1023px) and (max-width: 1441px) {
+  .footer__link {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1022px) {
+  .footer__link {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 766px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+}

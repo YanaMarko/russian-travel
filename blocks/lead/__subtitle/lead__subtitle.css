@@ -9,3 +9,11 @@
   text-align: center;
   margin: 32px auto 0;
 }
+
+@media (min-width: 319px) and (max-width: 766px) {
+  .lead__subtitle {
+    margin: 16px 16px 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,7 +1,6 @@
 .place__website {
-  max-width: 484px;
-  max-height: 152px;
-  min-height: 76px;
+  max-width: 456px;
+  max-height: 46px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -10,4 +9,20 @@
   display: flex;
   flex-direction: column;
   margin-top: 90px;
+}
+
+@media (min-width: 767px) and (max-width: 1022px) {
+  .place__website {
+    max-width: 352px;
+    max-height: 46px;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 766px) {
+  .place__website {
+    min-width: 288px;
+    max-height: 46px;
+    margin-top: 32px;
+  }
 }

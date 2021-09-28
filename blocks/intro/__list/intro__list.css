@@ -3,6 +3,24 @@
   list-style: none;
   padding: 0;
   max-width: 690px;
-  max-height: 90px;
   font-weight: 200;
+}
+
+@media (min-width: 1023px) and (max-width: 1441px) {
+  .intro__list {
+    max-width: 928px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1022px) {
+  .intro__list {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 766px) {
+  .intro__list {
+    max-width: 320px;
+    margin: 34px 0 0;
+  }
 }

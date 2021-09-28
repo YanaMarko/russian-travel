@@ -10,3 +10,28 @@
   line-height: 16px;
   text-align: right;
 }
+
+@media (min-width: 1023px) and (max-width: 1441px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1022px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 766px) {
+  .footer__copyright {
+    margin: 12px 0 0;
+    font-size: 14px;
+    line-height: 14px;
+    max-height: 14px;
+    max-width: 186px;
+    text-align: start;
+  }
+}

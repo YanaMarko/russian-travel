@@ -6,7 +6,16 @@
   line-height: 22px;
   text-align: center;
   margin: 32px auto;
-  max-width: 380px;
+  max-width: 360px;
   position: relative;
   z-index: 2;
+}
+
+@media (min-width: 319px) and (max-width: 766px) {
+  .cover__subtitle {
+    margin: 16px auto;
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
