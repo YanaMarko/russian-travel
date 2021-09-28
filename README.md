@@ -3,4 +3,5 @@
 В данном проекте реализована адаптивная вёрстка с помощью медиазапросов.
 Также используется система огранизации файлов Nested.
 
-Работу можно найти на GitHub: https://github.com/YanaMarko/russian-travel.git
+Работу можно найти на GitHub Pages: https://yanamarko.github.io/russian-travel/index.html
+
