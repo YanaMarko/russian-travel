@@ -29,7 +29,13 @@
   }
 }
 
-@media (min-width: 319px) and (max-width: 766px) {
+@media (min-width: 425px) and (max-width: 766px) {
+  .place__paragraph {
+    max-width: 766px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 424px) {
   .place__paragraph {
     min-width: 288px;
     font-size: 16px;

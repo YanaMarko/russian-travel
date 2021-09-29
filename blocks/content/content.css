@@ -17,7 +17,14 @@
   }
 }
 
-@media (min-width: 319px) and (max-width: 766px) {
+@media (min-width: 425px) and (max-width: 766px) {
+  .content {
+    max-width: 766px;
+    min-width: 424px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 424px) {
   .content {
     max-width: 320px;
     min-width: 319px;

@@ -10,7 +10,7 @@
 }
 
 @media (min-width: 1280px) and (max-width: 1441px) {
-  .photo-grid__item{
+  .photo-grid{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     min-width: 284px;
@@ -38,14 +38,19 @@
   }
 }
 
-@media (min-width: 424px) and (max-width: 766px) {
-  .photo-grid__item{
-    min-width: 393px;
-    min-height: 10230px;
+@media (min-width: 425px) and (max-width: 766px) {
+  .photo-grid{
+    min-width: 288px;
+    max-height: 2724px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    margin: 64px 16px 0;
+    row-gap: 12px;
+    column-gap: 0;
   }
 }
 
-@media (min-width: 319px) and (max-width: 423px) {
+@media (min-width: 319px) and (max-width: 424px) {
   .photo-grid {
     min-width: 288px;
     max-height: 2724px;

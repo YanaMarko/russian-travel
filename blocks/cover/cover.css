@@ -50,7 +50,15 @@
   }
 }
 
-@media (min-width: 319px) and (max-width: 766px) {
+@media (min-width: 425px) and (max-width: 766px) {
+  .cover {
+    margin-top: 117px;
+    max-width: 766px;
+    min-width: 423px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 424px) {
   .cover {
     margin-top: 66px;
     min-width: 320px;
