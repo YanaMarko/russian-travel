@@ -1,16 +1,21 @@
 .content {
-  max-width: 983px;
-  margin: 0 auto 0;
+  max-width: 984px;
+  margin: 56px 148px 0;
 }
 
-@media (min-width: 1023px) and (max-width: 1441px) {
+@media (min-width: 1280px) and (max-width: 1500px) {
   .content {
-    max-width: 928px;
-    min-width: 927px;
   }
 }
 
-@media (min-width: 767px) and (max-width: 1022px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .content {
+    /* max-width: 928px; */
+    min-width: 928px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
   .content {
     max-width: 768px;
     min-width: 767px;
@@ -30,4 +35,3 @@
     min-width: 319px;
   }
 }
-

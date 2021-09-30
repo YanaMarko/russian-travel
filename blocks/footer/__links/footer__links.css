@@ -1,5 +1,6 @@
 .footer__links {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  flex-direction: row;
+  min-width: 50%;
 }

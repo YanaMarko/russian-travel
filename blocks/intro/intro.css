@@ -1,7 +1,17 @@
 .intro {
   max-width: 690px;
-  max-height: 429px;
-  margin: 92px auto 0 0;
+  margin: 92px 0 0;
+}
+
+@media (min-width: 1280px) and (max-width: 1441px) {
+  .intro{
+  }
+}
+
+@media (min-width: 1023px) and (max-width: 1279px) {
+  .intro{
+
+  }
 }
 
 @media (min-width: 767px) and (max-width: 1022px) {
@@ -11,10 +21,17 @@
   }
 }
 
-@media (min-width: 319px) and (max-width: 766px) {
+@media (min-width: 425px) and (max-width: 766px) {
+  .photo-grid{
+
+  }
+}
+
+@media (min-width: 319px) and (max-width: 424px) {
   .intro {
     max-width: 288px;
-    max-height: 754px;
     margin: 64px 16px 0;
   }
 }
+
+

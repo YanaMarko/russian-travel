@@ -1,19 +1,26 @@
 .footer {
-  min-width: 1184px;
-  max-height: 18px;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   margin: 92px 48px 24px;
+  border: 1px solid red;
+
 }
 
-@media (min-width: 1023px) and (max-width: 1441px) {
+@media (min-width: 1280px) and (max-width: 1500px) {
+  .footer {
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
   .footer {
     min-width: 928px;
   }
 }
 
-@media (min-width: 767px) and (max-width: 1022px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .footer {
     min-width: 720px;
     margin: 88px 24px 24px;

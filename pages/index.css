@@ -3,7 +3,10 @@
 @import url(../Vendor/fonts/fonts.css);
 @import url(../Vendor/fonts/Inter-Black.woff);
 @import url(../Vendor/fonts/Inter-Black.woff2);
-@import url(../Vendor/fonts/);
+@import url(../Vendor/fonts/Inter-Bold.woff);
+@import url(../Vendor/fonts/Inter-Bold.woff2);
+@import url(../Vendor/fonts/Inter-Regular.woff);
+@import url(../Vendor/fonts/Inter-Regular.woff2);
 
 @import url(../blocks/link/link.css);
 

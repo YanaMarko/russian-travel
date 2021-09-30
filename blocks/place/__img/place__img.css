@@ -4,21 +4,32 @@
   max-height: 460px;
 }
 
-@media (min-width: 1023px) and (max-width: 1441px) {
+@media (min-width: 1280px) and (max-width: 1500px) {
+  .place__img {
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
   .place__img {
     max-width: 440px;
     max-height: 440px;
   }
 }
 
-@media (min-width: 767px) and (max-width: 1022px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .place__img {
     max-width: 340px;
     max-height: 340px;
   }
 }
 
-@media (min-width: 319px) and (max-width: 766px) {
+@media (min-width: 425px) and (max-width: 766px) {
+  .place__img {
+
+  }
+}
+
+@media (min-width: 319px) and (max-width: 424px) {
   .place__img {
     max-width: 320px;
     max-height: 320px;

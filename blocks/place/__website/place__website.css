@@ -1,7 +1,6 @@
 .place__website {
   max-width: 456px;
-  max-height: 46px;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -11,18 +10,32 @@
   margin-top: 90px;
 }
 
-@media (min-width: 767px) and (max-width: 1022px) {
+@media (min-width: 1280px) and (max-width: 1500px) {
   .place__website {
-    max-width: 352px;
-    max-height: 46px;
-    margin-top: 40px;
   }
 }
 
-@media (min-width: 319px) and (max-width: 766px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .place__website {
-    min-width: 288px;
-    max-height: 46px;
-    margin-top: 32px;
+
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .place__website {
+    max-width: 352px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 425px) and (max-width: 766px) {
+  .place__website {
+
+  }
+}
+
+@media (min-width: 319px) and (max-width: 424px) {
+    .place__website {
+      min-width: 288px;
+      margin-top: 32px;
   }
 }

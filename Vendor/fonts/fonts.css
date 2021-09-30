@@ -16,12 +16,21 @@
        url(../fonts/Inter-Black.woff) format("woff");
 }
 
-
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style:  normal;
   font-weight: 200;
   font-display: swap;
   src: url(../fonts/Inter-Regular.woff2) format("woff2"),
        url(../fonts/Inter-Regular.woff) format("woff");
 }
+
+@font-face {
+  font-family: 'Inter-Bold';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Inter-Bold.woff2) format("woff2"),
+       url(../fonts/Inter-Bold.woff) format("woff");
+}
+
