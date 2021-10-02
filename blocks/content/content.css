@@ -1,37 +1,39 @@
 .content {
-  max-width: 984px;
-  margin: 56px 148px 0;
+  margin: 0;
+  min-width: 984px;
+  overflow:hidden;
+  overflow-x:hidden;
 }
 
 @media (min-width: 1280px) and (max-width: 1500px) {
   .content {
+    min-width: 984px;
+    margin: 0 148px 0;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .content {
-    /* max-width: 928px; */
     min-width: 928px;
+    margin: 0 48px 0 48px;
   }
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
   .content {
-    max-width: 768px;
     min-width: 767px;
+    max-width: 1023px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 766px) {
   .content {
-    max-width: 766px;
-    min-width: 424px;
+    min-width: 390px;
   }
 }
 
 @media (min-width: 319px) and (max-width: 424px) {
   .content {
-    max-width: 320px;
-    min-width: 319px;
+    min-width: 280px;
   }
 }

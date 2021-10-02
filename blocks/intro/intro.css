@@ -1,20 +1,21 @@
 .intro {
   max-width: 690px;
-  margin: 92px 0 0;
+  margin: 0;
 }
 
-@media (min-width: 1280px) and (max-width: 1441px) {
+@media (min-width: 1280px) and (max-width: 1500px) {
   .intro{
+    margin: 92px 0 0 7%;
   }
 }
 
-@media (min-width: 1023px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .intro{
-
+    margin: 92px 0 0;
   }
 }
 
-@media (min-width: 767px) and (max-width: 1022px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .intro {
     max-width: 720px;
     margin: 88px 24px 0;
@@ -22,14 +23,15 @@
 }
 
 @media (min-width: 425px) and (max-width: 766px) {
-  .photo-grid{
-
+  .intro{
+    min-width: 288px;
+    margin: 64px 16px 0;
   }
 }
 
 @media (min-width: 319px) and (max-width: 424px) {
   .intro {
-    max-width: 288px;
+    min-width: 288px;
     margin: 64px 16px 0;
   }
 }

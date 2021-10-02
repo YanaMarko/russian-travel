@@ -9,6 +9,7 @@
 
 @media (min-width: 1280px) and (max-width: 1500px) {
   .intro__list {
+    max-width: 928px;
   }
 }
 
@@ -20,13 +21,13 @@
 
 @media (min-width: 767px) and (max-width: 1023px) {
   .intro__list {
-
+    max-width: 1023px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 766px) {
   .intro__list {
-    max-width: 768px;
+    max-width: 766px;
   }
 }
 

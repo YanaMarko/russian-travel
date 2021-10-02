@@ -1,57 +1,81 @@
 .place {
-  margin-top: 80px;
   display: grid;
   row-gap: 48px;
   column-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(46px, 152px);
+  grid-template-rows: minmax(46px, 1fr);
   flex-wrap: wrap;
   max-width: 984px;
 }
 
-.place:first-of-type{
-  margin-top: 0;
+@media (min-width: 1280px) and (max-width: 1500px) {
+  .place {
+    margin-top: 80px;
+  }
 }
 
 @media (min-width: 1280px) and (max-width: 1500px) {
-  .place {
+  .place:first-of-type {
+    margin-top: 92px;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .place {
-    max-width: 928px;
+    min-width: 928px;
     column-gap: 32px;
+    margin-top: 83px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .place:first-of-type {
+    margin-top: 89px;
   }
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
   .place {
-    max-width: 720px;
-    margin-top: 73px;
+    margin: 73px 32px 0 16px;
+    min-width: 720px;
     column-gap: 28px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .place:first-of-type{
+    margin: 61px auto 0;
+    max-width: 1023px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 766px) {
   .place {
-    max-width: 766px;
-    min-width: 424px;
-    margin-top: 73px;
-    column-gap: 28px;
+    margin-top: 50px;
+    max-width: 424px;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 0;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 766px) {
+  .place:first-of-type {
+    margin-top: 53px;
   }
 }
 
 @media (min-width: 319px) and (max-width: 424px) {
   .place {
-    max-width: 320px;
     margin-top: 50px;
-    row-gap: 32px;
-    column-gap: 0;
+    max-width: 320px;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 0;
   }
 }
-
+@media (min-width: 319px) and (max-width: 424px) {
+  .place:first-of-type {
+    margin-top: 53px;
+  }
+}

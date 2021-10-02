@@ -1,5 +1,5 @@
 .cover__subtitle {
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -11,34 +11,19 @@
   z-index: 2;
 }
 
-
-@media (min-width: 1280px) and (max-width: 1500px) {
-  .cover__subtitle {
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .cover__subtitle {
-
-  }
-}
-
-@media (min-width: 767px) and (max-width: 1023px) {
-  .cover__subtitle {
-
-  }
-}
-
 @media (min-width: 425px) and (max-width: 766px) {
   .cover__subtitle {
-
+    margin: 16px auto;
+    max-width: 260px;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
 @media (min-width: 319px) and (max-width: 424px) {
   .cover__subtitle {
     margin: 16px auto;
-    max-width: 288px;
+    max-width: 260px;
     font-size: 14px;
     line-height: 16px;
   }
