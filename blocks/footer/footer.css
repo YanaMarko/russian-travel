@@ -4,6 +4,8 @@
   justify-content: space-between;
   flex-direction: row;
   margin: 92px 48px 24px;
+  overflow:hidden;
+  overflow-x:hidden;
 }
 
 @media (min-width: 1280px) and (max-width: 1500px) {
@@ -30,7 +32,7 @@
 
 @media (min-width: 425px) and (max-width: 766px) {
   .footer {
-    min-width: 186px;
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

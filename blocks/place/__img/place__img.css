@@ -22,15 +22,15 @@
 @media (min-width: 425px) and (max-width: 766px) {
   .place__img {
     margin: 25px 0 0;
-    max-width: 320px;
-    max-height: 320px;
+    min-width: 320px;
+    min-height: 320px;
   }
 }
 
 @media (min-width: 319px) and (max-width: 424px) {
   .place__img {
     margin: 25px 0 0;
-    max-width: 320px;
-    max-height: 320px;
+    min-width: 320px;
+    min-height: 320px;
   }
 }

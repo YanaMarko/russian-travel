@@ -6,17 +6,18 @@
   grid-template-rows: minmax(46px, 1fr);
   flex-wrap: wrap;
   max-width: 984px;
+  margin: 73px 32px 0 16px;
 }
 
 @media (min-width: 1280px) and (max-width: 1500px) {
   .place {
-    margin-top: 80px;
+    margin: 80px 32px 0 16px;
   }
 }
 
 @media (min-width: 1280px) and (max-width: 1500px) {
   .place:first-of-type {
-    margin-top: 92px;
+    margin: 92px 32px 0 16px;
   }
 }
 
@@ -30,7 +31,7 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .place:first-of-type {
-    margin-top: 89px;
+    margin: 89px 32px 0 16px;
   }
 }
 
@@ -44,14 +45,14 @@
 
 @media (min-width: 767px) and (max-width: 1023px) {
   .place:first-of-type{
-    margin: 61px auto 0;
+    margin: 61px 32px 0 16px;
     max-width: 1023px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 766px) {
   .place {
-    margin-top: 50px;
+    margin: 50px 0 0;
     max-width: 424px;
     display: flex;
     flex-wrap: wrap;
@@ -67,7 +68,7 @@
 
 @media (min-width: 319px) and (max-width: 424px) {
   .place {
-    margin-top: 50px;
+    margin: 50px 0 0;
     max-width: 320px;
     display: flex;
     flex-wrap: wrap;

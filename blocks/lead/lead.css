@@ -1,11 +1,13 @@
 .lead {
   margin: 56px auto 0;
   text-align: center;
+  overflow:hidden;
+  overflow-x:hidden;
 }
 
 @media (min-width: 1280px) and (max-width: 1500px) {
   .lead {
-    min-width: 984px;
+    max-width: 984px;
     margin: 56px auto 0;
   }
 }

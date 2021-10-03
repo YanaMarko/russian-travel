@@ -9,6 +9,12 @@
   font-weight: normal;
 }
 
+@media (min-width: 425px) and (max-width: 766px) {
+  .footer__links {
+    max-width: 50%;
+  }
+}
+
 @media (min-width: 319px) and (max-width: 424px) {
   .footer__links {
     max-width: 50%;

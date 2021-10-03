@@ -9,6 +9,8 @@
   background-size: cover;
   text-align: center;
   align-items: center;
+  overflow:hidden;
+  overflow-x:hidden;
 }
 
 .cover::after {
