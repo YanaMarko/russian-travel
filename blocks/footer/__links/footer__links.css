@@ -2,11 +2,22 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  min-width: 60%;
   font-size: 16px;
   line-height: 18px;
   font-style: normal;
   font-weight: normal;
+}
+
+@media (min-width: 1280px) and (max-width: 1500px) {
+  .footer__links {
+    min-width: 70%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .footer__links {
+    min-width: 70%;
+  }
 }
 
 @media (min-width: 425px) and (max-width: 766px) {

@@ -23,7 +23,7 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .place__paragraph {
-    min-width: 456px;
+    max-width: 456px;
     margin: 27px 0 0;
   }
 }
