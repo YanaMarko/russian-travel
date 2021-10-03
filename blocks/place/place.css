@@ -11,13 +11,13 @@
 
 @media (min-width: 1280px) and (max-width: 1500px) {
   .place {
-    margin: 80px 32px 0 16px;
+    margin: 80px 0;
   }
 }
 
 @media (min-width: 1280px) and (max-width: 1500px) {
   .place:first-of-type {
-    margin: 92px 32px 0 16px;
+    margin: 92px 0;
   }
 }
 
