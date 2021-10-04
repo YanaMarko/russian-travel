@@ -7,7 +7,7 @@
   font-style: normal;
 }
 
-@media (min-width: 1280px) and (max-width: 1500px) {
+@media (min-width: 1280px) and (max-width: 1600px) {
   .intro__list {
     max-width: 928px;
   }
@@ -28,6 +28,7 @@
 @media (min-width: 425px) and (max-width: 766px) {
   .intro__list {
     max-width: 766px;
+    margin: 34px 0 0;
   }
 }
 

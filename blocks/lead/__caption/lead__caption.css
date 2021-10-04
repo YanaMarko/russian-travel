@@ -11,7 +11,13 @@
   padding: 0;
 }
 
-@media (min-width: 1280px) and (max-width: 1500px) {
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .lead__caption {
+    margin: 8px auto 0 16%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
   .lead__caption {
     max-width: 768px;
     margin: 8px auto 0 0;

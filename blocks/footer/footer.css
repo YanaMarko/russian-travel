@@ -3,11 +3,16 @@
   justify-content: space-between;
   flex-direction: row;
   margin: 92px 48px 24px;
-  overflow: hidden;
-  overflow-x: hidden;
 }
 
-@media (min-width: 1280px) and (max-width: 1500px) {
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .footer {
+    max-width: 1184px;
+    margin: 92px auto 24px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
   .footer {
     margin: 92px 48px 24px;
   }

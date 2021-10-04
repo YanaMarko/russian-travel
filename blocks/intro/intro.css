@@ -5,14 +5,15 @@
 
 @media (min-width: 1440px) and (max-width: 1600px) {
   .intro{
-    margin: 92px auto 0 7%;
+    max-width: 690px;
+    margin: 92px auto 0 16%;
   }
 }
 
-@media (min-width: 1280px) and (max-width: 1400px) {
+@media (min-width: 1280px) and (max-width: 1439px) {
   .intro{
     max-width: 690px;
-    margin: 92px auto 0 0;
+    margin: 92px auto 0 145px;
   }
 }
 

@@ -10,7 +10,7 @@
   grid-auto-columns: 0px;
 }
 
-@media (min-width: 1280px) and (max-width: 1500px) {
+@media (min-width: 1280px) and (max-width: 1600px) {
   .photo-grid{
     margin: 92px auto 0;
     grid-template-columns: repeat(4, 1fr);

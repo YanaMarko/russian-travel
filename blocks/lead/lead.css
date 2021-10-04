@@ -1,11 +1,9 @@
 .lead {
   margin: 56px auto 0;
   text-align: center;
-  overflow:hidden;
-  overflow-x:hidden;
 }
 
-@media (min-width: 1280px) and (max-width: 1500px) {
+@media (min-width: 1280px) and (max-width: 1439px) {
   .lead {
     max-width: 984px;
     margin: 56px auto 0;
@@ -21,21 +19,20 @@
 
 @media (min-width: 767px) and (max-width: 1023px) {
   .lead {
-    min-width: 768px;
-    margin: 48px auto 0;
+    margin: 48px 0 0;
   }
 }
 
 @media (min-width: 425px) and (max-width: 766px) {
   .lead {
-    min-width: 350px;
-    margin: 48px auto 0;
+    margin: 48px 0 0;
   }
 }
 
 @media (min-width: 319px) and (max-width: 424px) {
   .lead {
     min-width: 320px;
+    max-width: 424px;
     margin: 48px 0 0;
   }
 }
