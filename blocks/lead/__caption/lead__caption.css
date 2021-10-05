@@ -13,7 +13,7 @@
 
 @media (min-width: 1440px) and (max-width: 1600px) {
   .lead__caption {
-    margin: 8px auto 0 16%;
+    margin: 8px auto 0 0;
   }
 }
 
@@ -42,7 +42,7 @@
   }
 }
 
-@media (min-width: 319px) and (max-width: 424px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .lead__caption {
     margin: 8px auto 0 16px;
   }

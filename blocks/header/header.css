@@ -12,25 +12,32 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .header {
     min-width: 928px;
   }
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .header {
     margin: 28px 24px 0;
   }
 }
 
-@media (min-width: 425px) and (max-width: 766px) {
+@media (min-width: 700px) and (max-width: 766px) {
   .header {
-    margin: 16px 16px 0;
+    margin: 28px 24px 0;
+    max-width: 390px;
   }
 }
 
-@media (min-width: 319px) and (max-width: 424px) {
+@media (min-width: 425px) and (max-width: 699px) {
+  .header {
+    margin: 28px 24px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
   .header {
     margin: 16px 16px 0;
   }

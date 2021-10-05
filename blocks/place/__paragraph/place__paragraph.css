@@ -6,51 +6,57 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
+  border: blue 1px solid;
+  text-align: left;
+
 }
 
 @media (min-width: 1280px) and (max-width: 1600px) {
   .place__paragraph {
-    min-width: 456px;
+    max-width: 450px;
     margin: 27px 0 0;
   }
 }
 
 @media (min-width: 1280px) and (max-width: 1600px) {
   .place__paragraph:first-of-type {
-    margin-top: 0;
+    margin: 0 0;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .place__paragraph {
-    min-width: 456px;
+    max-width: 452px;
     margin: 27px 0 0;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .place__paragraph:first-of-type {
-    margin-top: 0;
+    margin: 0;
   }
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .place__paragraph {
-    min-width: 352px;
+    max-width: 328px;
     font-size: 16px;
     line-height: 163%;
+    margin: 26px 0 0;
   }
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .place__paragraph:first-of-type {
     margin-top: 0;
+    max-width: 328px;
+    margin: 0;
   }
 }
 
-@media (min-width: 425px) and (max-width: 766px) {
+@media (min-width: 425px) and (max-width: 768px) {
   .place__paragraph {
-    min-width: 380px;
+    max-width: 350px;
     font-size: 16px;
     line-height: 163%;
     margin: 25px 16px 0;
@@ -58,13 +64,13 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 766px) {
+@media (min-width: 425px) and (max-width: 768px) {
   .place__paragraph:first-of-type {
     margin-top: 39px;
   }
 }
 
-@media (min-width: 319px) and (max-width: 424px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .place__paragraph {
     min-width: 288px;
     font-size: 16px;
@@ -74,7 +80,7 @@
   }
 }
 
-@media (min-width: 319px) and (max-width: 424px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .place__paragraph:first-of-type {
     margin: 39px 16px 0;
   }

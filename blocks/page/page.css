@@ -4,3 +4,10 @@
   color: white;
 }
 
+@media (min-width: 767px) and (max-width: 1004px) {
+  .page {
+    font-size: 16px;
+    line-height: 163%;
+    margin: 26px 0 0;
+  }
+}

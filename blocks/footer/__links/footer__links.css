@@ -6,6 +6,7 @@
   line-height: 18px;
   font-style: normal;
   font-weight: normal;
+  min-width: 70%;
 }
 
 @media (min-width: 1280px) and (max-width: 1600px) {
@@ -14,19 +15,25 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .footer__links {
     min-width: 70%;
   }
 }
 
-@media (min-width: 425px) and (max-width: 766px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer__links {
+    min-width: 70%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
   .footer__links {
     max-width: 50%;
   }
 }
 
-@media (min-width: 319px) and (max-width: 424px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .footer__links {
     max-width: 50%;
   }

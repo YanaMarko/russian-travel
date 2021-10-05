@@ -1,5 +1,4 @@
 .photo-grid {
-  min-width: 1184px;
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(4, 1fr);
@@ -8,6 +7,7 @@
   max-width: 1184px;
   grid-auto-rows: 0px;
   grid-auto-columns: 0px;
+  border: rgb(166, 255, 0) 1px solid;
 }
 
 @media (min-width: 1280px) and (max-width: 1600px) {
@@ -19,7 +19,7 @@
   }
 }
 
-@media (min-width: 1023px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .photo-grid{
     min-width: 928px;
     grid-template-columns: repeat(3, 1fr);
@@ -28,18 +28,22 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 1022px) {
+
+@media (min-width: 768px) and (max-width: 1024px) {
   .photo-grid {
-    min-width: 720px;
+    max-width: 720px;
+    min-height: 942px;
+    gap: 16px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     margin: 88px 24px 0;
   }
 }
 
-@media (min-width: 425px) and (max-width: 766px) {
+@media (min-width: 425px) and (max-width: 768px) {
   .photo-grid{
-    min-width: 288px;
+    min-width: 352px;
+    min-width: 318px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
     margin: 64px 16px 0;
@@ -48,9 +52,10 @@
   }
 }
 
-@media (min-width: 319px) and (max-width: 424px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .photo-grid {
     min-width: 288px;
+    max-width: 318px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
     margin: 64px 16px 0;

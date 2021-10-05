@@ -12,19 +12,19 @@
   }
 }
 
-@media (min-width: 1280px) and (max-width: 1439px) {
+@media (min-width: 1280px) and (max-width: 1440px) {
   .footer__link {
     margin-right: 18px;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .footer__link {
     margin-right: 18px;
   }
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   .footer__link {
     margin-right: 18px;
   }
@@ -39,7 +39,7 @@
     }
 }
 
-@media (min-width: 319px) and (max-width: 424px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;
