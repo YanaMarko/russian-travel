@@ -36,7 +36,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-    }
+  }
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
@@ -44,6 +44,6 @@
     font-size: 24px;
     line-height: 24px;
     font-weight: 400;
-    margin-bottom: 32px;
+    margin: 0 30px 32px 0;
   }
 }

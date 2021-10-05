@@ -6,7 +6,6 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
-  border: blue 1px solid;
   text-align: left;
 
 }
@@ -59,14 +58,14 @@
     max-width: 350px;
     font-size: 16px;
     line-height: 163%;
-    margin: 25px 16px 0;
+    margin: 25px 0 0;
     gap: 0;
   }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
   .place__paragraph:first-of-type {
-    margin-top: 39px;
+    margin: 39px 0 0;
   }
 }
 
@@ -75,13 +74,13 @@
     min-width: 288px;
     font-size: 16px;
     line-height: 163%;
-    margin: 25px 16px 0;
+    margin: 25px 15px 0;
     gap: 0;
   }
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
   .place__paragraph:first-of-type {
-    margin: 39px 16px 0;
+    margin: 39px 15px 0;
   }
 }

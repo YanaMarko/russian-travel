@@ -48,6 +48,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 64px 118px 24px 16px;
+    margin: 64px auto 24px 16px;
   }
 }

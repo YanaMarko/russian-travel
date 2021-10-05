@@ -14,7 +14,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .lead__image {
-    max-width: 766px;
+    max-width: 100%;
     max-height: 480px;
     margin: 56px 0 0;
   }

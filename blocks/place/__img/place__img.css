@@ -36,7 +36,7 @@
 @media (min-width: 320px) and (max-width: 425px) {
   .place__img {
     margin: 32px 0 0;
-    min-width: 320px;
+    min-width: 318px;
     min-height: 320px;
   }
 }

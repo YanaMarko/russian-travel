@@ -6,7 +6,6 @@
   grid-template-rows: minmax(46px, 1fr);
   flex-wrap: wrap;
   max-width: 984px;
-  border:  1px solid;
 
 }
 
@@ -38,7 +37,6 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .place {
     margin: 73px 32px 0 16px;
-    /* min-width: 720px; */
     column-gap: 28px;
     grid-template-columns: 340px 340px;
   }
@@ -47,13 +45,12 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .place:first-of-type{
     margin: 61px 32px 0 16px;
-    /* max-width: 1023px; */
   }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
   .place {
-    margin: 50px 0 0;
+    margin: 50px auto 0;
     max-width: 424px;
     display: flex;
     flex-wrap: wrap;
@@ -63,14 +60,14 @@
 
 @media (min-width: 425px) and (max-width: 768px) {
   .place:first-of-type {
-    margin-top: 53px;
+    margin: 53px auto 0;
   }
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
   .place {
-    margin: 50px 0 0;
-    min-width: 320px;
+    margin: 50px auto 0;
+    min-width: 318px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 0;
@@ -78,6 +75,6 @@
 }
 @media (min-width: 320px) and (max-width: 425px) {
   .place:first-of-type {
-    margin-top: 53px;
+    margin: 53px auto 0;
   }
 }

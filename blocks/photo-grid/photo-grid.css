@@ -7,7 +7,6 @@
   max-width: 1184px;
   grid-auto-rows: 0px;
   grid-auto-columns: 0px;
-  border: rgb(166, 255, 0) 1px solid;
 }
 
 @media (min-width: 1280px) and (max-width: 1600px) {
@@ -28,7 +27,6 @@
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .photo-grid {
     max-width: 720px;
@@ -36,7 +34,7 @@
     gap: 16px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    margin: 88px 24px 0;
+    margin: 88px auto 0;
   }
 }
 
@@ -46,7 +44,7 @@
     min-width: 318px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
-    margin: 64px 16px 0;
+    margin: 64px auto 0;
     row-gap: 12px;
     column-gap: 0;
   }
