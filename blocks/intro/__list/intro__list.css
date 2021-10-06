@@ -13,7 +13,7 @@
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1280spx) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .intro__list {
     max-width: 928px;
   }
