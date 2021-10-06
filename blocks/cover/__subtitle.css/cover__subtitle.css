@@ -5,24 +5,15 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  margin: 32px auto;
+  margin: 32px auto 0;
   max-width: 360px;
   position: relative;
   z-index: 2;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .cover__subtitle {
-    margin: 16px auto;
-    max-width: 260px;
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 425px) {
-  .cover__subtitle {
-    margin: 16px auto;
+    margin: 16px auto 0;
     max-width: 260px;
     font-size: 14px;
     line-height: 16px;

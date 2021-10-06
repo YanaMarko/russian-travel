@@ -12,11 +12,6 @@
 }
 
 .place__link:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
-  .place__link {
-    margin: 12px 0 0;
-  }
-}

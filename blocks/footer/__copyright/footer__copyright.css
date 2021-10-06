@@ -11,6 +11,11 @@
 @media (min-width: 425px) and (max-width: 768px) {
   .footer__copyright {
     margin: 18px 0 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .footer__copyright {
     line-height: 14px;
     text-align: start;
   }
@@ -19,7 +24,7 @@
 @media (min-width: 320px) and (max-width: 425px) {
   .footer__copyright {
     margin: 16px 0 0;
-    line-height: 14px;
-    text-align: start;
   }
 }
+
+

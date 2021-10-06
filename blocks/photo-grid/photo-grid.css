@@ -1,63 +1,60 @@
 .photo-grid {
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  margin: 92px 48px 0;
   max-width: 1184px;
   grid-auto-rows: 0px;
   grid-auto-columns: 0px;
 }
 
-@media (min-width: 1280px) and (max-width: 1600px) {
+@media (min-width: 1280px) and (max-width: 1440px) {
   .photo-grid{
-    margin: 92px auto 0;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    max-height: 671px;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 92px auto 0;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid{
     min-width: 928px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 14px;
+    margin: 92px 48px 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .photo-grid {
     max-width: 720px;
-    min-height: 942px;
-    gap: 16px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    margin: 88px auto 0;
+    margin: 88px 24px 0;
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .photo-grid{
     min-width: 352px;
-    min-width: 318px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
-    margin: 64px auto 0;
-    row-gap: 12px;
-    column-gap: 0;
+    margin: 64px auto 0 16px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 424px) {
   .photo-grid {
     min-width: 288px;
-    max-width: 318px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
     margin: 64px 16px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .photo-grid {
+    max-width: 318px;
     row-gap: 12px;
     column-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+
   }
 }

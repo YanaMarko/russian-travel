@@ -7,6 +7,7 @@
   position: relative;
   background-image: url(././../../images/cover-trains.jpg);
   background-size: cover;
+  background-position: center;
   text-align: center;
   align-items: center;
 }
@@ -18,32 +19,23 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: black;
+  background-color: #2A2C2F;;
   opacity: 0.3;
 }
 
 .cover:hover::after{
-  opacity: 0.6;
+  opacity: 0.8;
   cursor: pointer;
-}
-
-@media (min-width: 1440px) and (max-width: 1600px) {
-  .cover {
-    max-width: 1184px;
-    margin: 92px auto 24px;
-    max-height: 740px;
-  }
 }
 
 @media (min-width: 1280px) and (max-width: 1440px) {
   .cover {
-    margin: 92px 48px 0;
     max-width: 1184px;
     max-height: 740px;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .cover {
     margin: 92px 0 0;
     max-width: 1024px;
@@ -51,7 +43,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .cover {
     margin: 117px 0 0;
     max-width: 767px;
@@ -59,16 +51,15 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .cover {
     margin: 66px 0 0;
     max-width: 320px;
     min-height: 300px;
-    background-position: center;
   }
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 424px) {
   .cover {
     margin: 77px 0 0;
     max-width: 318px;

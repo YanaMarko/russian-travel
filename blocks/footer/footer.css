@@ -3,48 +3,30 @@
   justify-content: space-between;
   flex-direction: row;
   margin: 92px 48px 24px;
-}
-
-@media (min-width: 1440px) and (max-width: 1600px) {
-  .footer {
-    max-width: 1184px;
-    margin: 92px auto 24px;
-  }
-}
-
-@media (min-width: 1280px) and (max-width: 1440px) {
-  .footer {
-    margin: 92px 48px 24px;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-  .footer {
-    margin: 92px 48px 24px;
-  }
+  font-size: 16px;
+  line-height: 18px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .footer {
     margin: 88px 24px 24px;
-    font-size: 16px;
-    line-height: 18px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
   .footer {
     max-width: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 64px 118px 24px 16px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
   .footer {
     min-width: 186px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
