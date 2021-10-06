@@ -9,6 +9,14 @@
   text-align: left;
 }
 
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .place__paragraph:first-child {
+    max-width: 450px;
+    margin: 0;
+  }
+}
+
 @media (min-width: 1280px) and (max-width: 1440px) {
   .place__paragraph {
     max-width: 450px;
@@ -17,7 +25,7 @@
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .place__paragraph {
-    margin: 27px 0 0;
+    margin: 26px 0 0;
   }
 }
 
@@ -31,7 +39,7 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 163%;
-    margin: 26px 0 0;
+    margin: 25px 0 0;
   }
 }
 
@@ -74,7 +82,7 @@
 
 @media (min-width: 320px) and (max-width: 424px) {
   .place__paragraph:first-of-type {
-    margin: 39px 15px 0;
+    margin: 32px 15px 0;
   }
 }
 

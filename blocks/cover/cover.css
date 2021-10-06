@@ -45,7 +45,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    margin: 117px 0 0;
+    margin: 90px 0 0;
     max-width: 767px;
     min-height: 480px;
   }
@@ -61,7 +61,7 @@
 
 @media (min-width: 320px) and (max-width: 424px) {
   .cover {
-    margin: 77px 0 0;
+    margin: 66px 0 0;
     max-width: 318px;
     min-height: 200px;
   }

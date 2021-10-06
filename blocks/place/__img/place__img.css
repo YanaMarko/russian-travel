@@ -42,6 +42,6 @@
 
 @media (min-width: 320px) and (max-width: 425px) {
   .place__img:first-of-type {
-    margin: 25px 0 0;
+    margin: 32px 0 0;
   }
 }
