@@ -55,7 +55,6 @@
   .cover {
     max-width: 350px;
     min-height: 220px;
-    margin: 66px auto 0;
   }
 }
 
@@ -69,6 +68,11 @@
 @media (min-width: 320px) and (max-width: 424px) {
   .cover {
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cover {
     margin: 66px auto 0;
   }
 }
