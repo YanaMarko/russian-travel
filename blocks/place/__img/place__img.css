@@ -21,8 +21,8 @@
 @media (min-width: 425px) and (max-width: 768px) {
   .place__img {
     margin: 32px 0 0 16px;
-    max-width: 352px;
-    max-height: 264px;
+    max-width: 390px;
+    max-height: 390px;
   }
 }
 

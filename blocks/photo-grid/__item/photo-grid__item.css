@@ -17,15 +17,17 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .photo-grid__item {
-    min-width: 288px;
-    max-width: 352px;
+    min-width: 390px;
+    min-height: 250px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 424px) {
   .photo-grid__item {
+    min-width: 288px;
+    max-width: 352px;
     min-height: 216px;
   }
 }
