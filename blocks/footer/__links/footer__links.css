@@ -15,7 +15,13 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 424px) {
+  .footer__links {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
   .footer__links {
     max-width: 50%;
   }

@@ -4,10 +4,22 @@
   margin: 64px 0 0;
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .lead__image {
+    max-width: 984px;
+    max-height: 615px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
   .lead__image {
     max-width: 928px;
     max-height: 580px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .lead__image {
     margin: 56px auto 0;
   }
 }
@@ -28,6 +40,7 @@
 
 @media (min-width: 425px) and (max-width: 745px) {
   .lead__image {
+    min-width: 390px;
     margin: 40px 0 0;
   }
 }

@@ -8,23 +8,28 @@
   text-align: right;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .footer__copyright {
-    margin: 18px 0 0;
+    line-height: 16px;
+    margin: 9px 0 0;
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 424px) {
   .footer__copyright {
+    margin: 16px 0 0;
     line-height: 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__copyright {
     text-align: start;
   }
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .footer__copyright {
-    margin: 16px 0 0;
+    font-size: 14px;
   }
 }
-
-
