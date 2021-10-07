@@ -32,6 +32,7 @@
 @media (min-width: 425px) and (max-width: 766px) {
   .cover__title {
     max-width: 250px;
+    margin: 50px auto 0;
   }
 }
 
