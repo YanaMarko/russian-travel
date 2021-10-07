@@ -7,7 +7,7 @@
   line-height: 76px;
   position: relative;
   z-index: 2;
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
 }
