@@ -25,7 +25,7 @@
 @media (min-width: 425px) and (max-width: 767px) {
   .intro {
     min-width: 288px;
-    margin: 64px 10% 0;
+    margin: 64px 16px 0;
   }
 }
 
