@@ -22,7 +22,14 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 425px) and (max-width: 767px) {
+  .intro {
+    min-width: 288px;
+    margin: 64px 10% 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
   .intro {
     min-width: 288px;
     margin: 64px 16px 0;

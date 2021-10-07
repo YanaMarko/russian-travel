@@ -17,13 +17,25 @@
   }
 }
 
+@media (min-width: 745px) and (max-width: 768px) {
+  .lead {
+    max-width: 650px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 745px) {
+  .lead {
+    margin: 48px auto 0;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 1023px) {
   .lead {
     margin: 48px auto 0;
   }
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 424px) {
   .lead {
     min-width: 320px;
     max-width: 424px;

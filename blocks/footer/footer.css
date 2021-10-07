@@ -19,11 +19,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 6px;
-    margin: 64px 16px 24px;
+    margin: 64px auto 24px;
+    max-width: 423px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 424px) {
   .footer {
     display: flex;
     flex-direction: column;
