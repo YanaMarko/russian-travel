@@ -9,16 +9,29 @@
   margin: 0 auto 0;
 }
 
-@media (min-width: 1280px) and (max-width: 1600px) {
-  .lead__title {
-    margin: 56px auto 0;
+@media (min-width: 768px) and (max-width: 1280px) {
+  .lead__title  {
+    font-size: 96px;
+    max-width: 720px;
+    line-height: 100px;
   }
 }
 
+@media (min-width: 745px) and (max-width: 767px) {
+  .lead__title  {
+    font-size: 50px;
+    max-width: 400px;
+    line-height: 110%;
+    font-size: 40px;
+  }
+}
 
-@media (min-width: 424px) and (max-width: 745px) {
+@media (min-width: 425px) and (max-width: 745px) {
   .lead__title {
     font-size: 50px;
+    max-width: 400px;
+    line-height: 110%;
+    font-size: 40px;
   }
 }
 
@@ -26,5 +39,6 @@
   .lead__title {
     line-height: 110%;
     font-size: 40px;
+    max-width: 288px;
   }
 }

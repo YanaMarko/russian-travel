@@ -9,6 +9,7 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
+  margin: 245px auto 0;
 }
 
 @media (min-width: 1280px) and (max-width: 1440px) {
@@ -53,4 +54,5 @@
     max-width: 250px;
   }
 }
+
 

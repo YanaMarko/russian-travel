@@ -17,12 +17,13 @@
 @media (min-width: 425px) and (max-width: 766px) {
   .intro__text {
     max-width: 393px;
+    margin: 40px 0 0;
   }
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
   .intro__text {
     max-width: 288px;
-    margin: 32px 0 0;
+    margin: 40px 0 0;
   }
 }

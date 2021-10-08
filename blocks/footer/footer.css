@@ -5,21 +5,38 @@
   margin: 92px 48px 24px;
   font-size: 16px;
   line-height: 18px;
+  max-width: 1184px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .footer {
-    margin: 88px 24px 24px;
+    margin: 92px 48px 24px;
+    max-width: 1184px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .footer {
+    margin: 92px auto 24px;
+    max-width: 928px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    margin: 88px auto 24px;
+    max-width: 720px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
   .footer {
+    max-width: 720px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 6px;
-    margin: 64px 16px 24px;
+    margin: 64px auto 24px;
     max-width: 423px;
   }
 }
