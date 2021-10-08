@@ -6,7 +6,6 @@
   grid-template-rows: minmax(46px, 1fr);
   flex-wrap: wrap;
   max-width: 984px;
-
 }
 
 @media (min-width: 1280px) and (max-width: 1440px) {
