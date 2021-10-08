@@ -1,37 +1,20 @@
 .place__paragraph {
   max-width: 484px;
   margin: 26px 0 0;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 163%;
   text-align: left;
 }
 
 @media screen and (min-width: 1280px) {
-  .place__paragraph {
+  .place__paragraph .place__paragraph:first-of-type {
     max-width: 450px;
-    margin: 26px 0 0;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .place__paragraph:first-of-type {
-    max-width: 450px;
-    margin: 0;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1280px) {
   .place__paragraph:first-of-type {
     margin: 0;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .place__paragraph {
-    margin: 26px 0 0;
   }
 }
 
@@ -43,8 +26,6 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .place__paragraph {
-    font-size: 16px;
-    line-height: 163%;
     margin: 25px 0 0;
   }
 }
@@ -56,17 +37,9 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .place__paragraph:first-of-type {
-    margin-top: 0;
-  }
-}
-
 @media (min-width: 425px) and (max-width: 767px) {
   .place__paragraph {
     max-width: 350px;
-    font-size: 16px;
-    line-height: 163%;
     margin: 25px auto 0 16px;
   }
 }
@@ -80,9 +53,13 @@
 @media (min-width: 320px) and (max-width: 424px) {
   .place__paragraph {
     min-width: 288px;
-    font-size: 16px;
-    line-height: 163%;
     margin: 25px 15px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
   }
 }
 
@@ -92,14 +69,4 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-  .place__paragraph {
-    gap: 0;
-  }
-}
 
-@media (min-width: 768px) and (max-width: 1279px) {
-  .place__paragraph:first-of-type {
-    margin: 0;
-  }
-}

@@ -1,4 +1,6 @@
 .place {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: normal;
   display: grid;
   row-gap: 48px;
   column-gap: 40px;
@@ -9,29 +11,15 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .place {
-    column-gap: 40px;
-    margin: 80px 0 0;
+  .place:first-of-type {
+    margin: 92px 0 0;
+    min-width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place:first-of-type {
-    margin: 92px 0 0;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .place {
-    min-width: 524px;
-    column-gap: 32px;
     margin: 80px 0 0;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .place:first-of-type {
-    margin: 92px 0 0;
     min-width: 928px;
   }
 }

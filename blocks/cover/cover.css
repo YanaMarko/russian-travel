@@ -29,16 +29,8 @@
   transition-duration: 1s;
 }
 
-@media (min-width: 1280px) and (max-width: 1440px) {
-  .cover {
-    max-width: 1184px;
-    max-height: 740px;
-  }
-}
-
 @media (min-width: 1024px) and (max-width: 1279px) {
   .cover {
-    margin: 92px auto 0;
     max-width: 1024px;
     min-height: 640px;
   }
