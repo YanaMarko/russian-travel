@@ -6,13 +6,13 @@
   margin: 0;
 }
 
-@media screen and (min-width: 766px) {
+@media screen and (min-width: 763px) {
   .intro__title {
     max-width: 720px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media screen and (max-width: 762px) {
   .intro__title {
     max-width: 288px;
     font-size: 32px;

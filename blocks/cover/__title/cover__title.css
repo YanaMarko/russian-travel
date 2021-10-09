@@ -10,19 +10,19 @@
   margin: 245px auto 0;
 }
 
-@media (min-width: 1023px) and (max-width: 1278px) {
+@media (min-width: 1019px) and (max-width: 1274px) {
   .cover__title {
     margin: 195px auto 0;
   }
 }
 
-@media (min-width: 766px) and (max-width: 1022px) {
+@media (min-width: 763px) and (max-width: 1018px) {
   .cover__title {
     margin: 115px auto 0;
   }
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media screen and (max-width: 762px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;

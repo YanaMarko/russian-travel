@@ -8,7 +8,7 @@
   min-width: 70%;
 }
 
-@media (min-width: 320px) and (max-width: 424px) {
+@media screen and (max-width: 762px) {
   .footer__links {
     max-width: 50%;
     margin-right: 0;

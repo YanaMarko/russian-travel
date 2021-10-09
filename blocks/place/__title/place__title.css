@@ -9,13 +9,13 @@
   justify-content: flex-end;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1019px) {
   .place__title {
     max-width: 440px;
   }
 }
 
-@media (min-width: 766px) and (max-width: 1023px) {
+@media (min-width: 763px) and (max-width: 1018px) {
   .place__title {
     max-width: 340px;
     font-size: 42px;
@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 762px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;

@@ -5,19 +5,19 @@
   color: white;
 }
 
-@media (min-width: 1023px) and (max-width: 1278px) {
+@media (min-width: 1019px) and (max-width: 1274px) {
   .page {
-    max-width: 1279px;
+    max-width: 1024px;
   }
 }
 
-@media (min-width: 766px) and (max-width: 1022px) {
+@media (min-width: 763px) and (max-width: 1018px) {
   .page {
-    max-width: 1023px;
+    max-width: 768px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media screen and (max-width: 762px) {
   .page {
     max-width: 320px;
   }

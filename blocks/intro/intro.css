@@ -4,21 +4,21 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
-@media (min-width: 1023px) and (max-width: 1278px) {
+@media (min-width: 1019px) and (max-width: 1274px) {
   .intro{
     margin: 92px auto 0;
     min-width: 928px;
   }
 }
 
-@media (min-width: 766px) and (max-width: 1022px) {
+@media (min-width: 763px) and (max-width: 1018px) {
   .intro {
     max-width: 720px;
     margin: 88px auto 0;
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 762px) {
   .intro {
     max-width: 300px;
     margin: 64px 16px 0;

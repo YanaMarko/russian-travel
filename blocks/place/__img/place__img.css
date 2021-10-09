@@ -4,21 +4,21 @@
   max-height: 460px;
 }
 
-@media (min-width: 1023px) and (max-width: 1278px) {
+@media (min-width: 1019px) and (max-width: 1274px) {
   .place__img {
     max-width: 440px;
     max-height: 440px;
   }
 }
 
-@media (min-width: 766px) and (max-width: 1022px) {
+@media (min-width: 763px) and (max-width: 1018px) {
   .place__img {
     max-width: 340px;
     max-height: 340px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media (min-width: 320px) and (max-width: 762px) {
   .place__img {
     margin: 32px 0 0;
     max-width: 318px;

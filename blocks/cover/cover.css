@@ -30,14 +30,14 @@
   transition-duration: 1s;
 }
 
-@media (min-width: 1023px) and (max-width: 1278px) {
+@media (min-width: 1019px) and (max-width: 1274px) {
   .cover {
     max-width: 1024px;
     min-height: 640px;
   }
 }
 
-@media (min-width: 766px) and (max-width: 1023px) {
+@media (min-width: 763px) and (max-width: 1018px) {
   .cover {
     margin: 90px auto 0;
     max-width: 767px;
@@ -45,7 +45,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media screen and (max-width: 762px) {
   .cover {
     margin: 66px auto 0;
     max-width: 318px;

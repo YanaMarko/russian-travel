@@ -4,10 +4,23 @@
   font-size: 96px;
   line-height: 104%;
   text-align: center;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media (min-width: 500px) and (max-width: 762px) {
+  .lead__title {
+    font-size: 46px;
+    max-width: 388px;
+  }
+}
+
+@media (min-width: 445px) and (max-width: 500px) {
+  .lead__title {
+    font-size: 46px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 445px) {
   .lead__title {
     line-height: 110%;
     font-size: 40px;

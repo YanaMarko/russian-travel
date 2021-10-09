@@ -5,13 +5,13 @@
   max-width: 690px;
 }
 
-@media (min-width: 766px) and (max-width: 1022px) {
+@media (min-width: 763px) and (max-width: 1018px) {
   .intro__list {
     max-width: 720px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 765px) {
+@media screen and (max-width: 762px) {
   .intro__list {
     max-width: 320px;
   }
