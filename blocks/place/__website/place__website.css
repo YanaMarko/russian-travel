@@ -8,25 +8,9 @@
   justify-content: flex-end;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .place__website {
-    min-width: 352px;
-  }
-}
-@media (min-width: 425px) and (max-width: 767px) {
-  .place__website {
-    min-width: 300px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 424px) {
-  .place__website {
-    min-width: 288px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 765px) {
   .place__website {
     margin: 32px 0 0 16px;
+    min-width: 200px;
   }
 }

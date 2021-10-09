@@ -2,39 +2,28 @@
   max-width: 984px;
   margin: 56px auto 0;
   text-align: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1023px) and (max-width: 1278px) {
   .lead {
     max-width: 928px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 766px) and (max-width: 1022px) {
   .lead {
     max-width: 768px;
   }
 }
 
-@media (min-width: 745px) and (max-width: 767px) {
-  .lead {
-    max-width: 480px;
-  }
-}
-
-@media (min-width: 425px) and (max-width: 745px) {
-  .lead {
-    max-width: 390px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 765px) {
   .lead {
     max-width: 320px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 1280px) {
+@media (min-width: 320px) and (max-width: 1278px) {
   .lead {
     margin: 48px auto 0;
   }

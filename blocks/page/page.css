@@ -5,26 +5,20 @@
   color: white;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1023px) and (max-width: 1278px) {
   .page {
     max-width: 1279px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 766px) and (max-width: 1022px) {
   .page {
     max-width: 1023px;
   }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 765px) {
   .page {
-    min-width: 320px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 424px) {
-  .page {
-    min-width: 320px;
+    max-width: 320px;
   }
 }

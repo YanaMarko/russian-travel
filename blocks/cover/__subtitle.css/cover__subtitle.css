@@ -9,7 +9,7 @@
   z-index: 2;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 765px) {
   .cover__subtitle {
     margin: 16px auto 0;
     max-width: 260px;
