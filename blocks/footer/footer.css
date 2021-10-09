@@ -24,9 +24,8 @@
 
 @media (min-width: 425px) and (max-width: 767px) {
   .footer {
-    flex-wrap: wrap;
-    margin: 64px 16px 24px;
-    max-width: 423px;
+    margin: 64px auto 0;
+    max-width: 390px;
   }
 }
 
