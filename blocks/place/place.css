@@ -2,17 +2,22 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   display: grid;
   row-gap: 48px;
-  column-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: minmax(46px, 1fr);
   flex-wrap: wrap;
   max-width: 984px;
+  margin: 80px auto 0;
 }
 
-@media screen and (min-width: 1022px) {
+@media screen and (min-width: 1274px) {
+  .place {
+    column-gap: 40px;
+  }
+}
+
+@media (min-width: 1019px) and (max-width: 1274px) {
   .place {
     column-gap: 32px;
-    margin: 80px 0 0;
     max-width: 928px;
   }
 }
@@ -34,9 +39,9 @@
   }
 }
 
-@media (min-width: 1019px) and (max-width: 1274px) {
+@media screen and (min-width: 1019px) {
   .place:first-of-type {
-    margin: 92px 0 0;
+    margin: 92px auto 0;
   }
 }
 
@@ -51,3 +56,5 @@
     margin: 64px auto 0;
   }
 }
+
+
