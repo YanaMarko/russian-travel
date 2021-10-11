@@ -18,14 +18,7 @@
   }
 }
 
-@media (min-width: 500px) and (max-width: 763px) {
-  .lead__image {
-    max-height: 250px;
-    max-width: 490px;
-  }
-}
-
-@media (min-width: 445px) and (max-width: 500px) {
+@media (min-width: 445px) and (max-width: 763px) {
   .lead__image {
     max-height: 220px;
     max-width: 390px;
