@@ -8,6 +8,10 @@
   text-align: center;
   align-items: center;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  min-height: 740px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .cover::after {
@@ -21,20 +25,36 @@
   opacity: 0.3;
 }
 
+.cover:hover {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
 .cover:hover::after{
   opacity: 0.8;
   cursor: pointer;
   transition-duration: 1s;
 }
 
+@media (min-width: 1019px) and (max-width: 1274px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
 @media (min-width: 763px) and (max-width: 1018px) {
   .cover {
     margin: 90px auto 0;
+    max-width: 767px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 762px) {
   .cover {
     margin: 66px auto 0;
+    max-width: 318px;
+    min-height: 200px;
   }
 }
