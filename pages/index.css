@@ -5,6 +5,7 @@
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link-visible/cover__link-visible.css);
 @import url(../blocks/cover/__subtitle.css/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
